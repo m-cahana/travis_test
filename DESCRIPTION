@@ -6,7 +6,6 @@ Authors@R: person("Michael", "Cahana", email = "cahanamichael@gmail.com",
     role = c("aut", "cre"))
 Description: Testing around
 LazyData: TRUE
-# packages to install
 Imports:
     dplyr,
     testthat
