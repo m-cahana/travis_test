@@ -7,7 +7,7 @@ Authors@R: person("Michael", "Cahana", email = "cahanamichael@gmail.com",
 Description: Testing around
 LazyData: TRUE
 Imports:
-    tidyverse,
+    dplyr,
     testthat, 
     readxl
 RoxygenNote: 6.0.1

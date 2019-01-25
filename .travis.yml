@@ -1,10 +1,10 @@
+sudo: false
 language: r
 cache: packages
 # build in two different OS
 r:
     - release
 os:
-    - linux
     - osx
 script:
     - Rscript test.R
