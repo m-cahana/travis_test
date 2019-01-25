@@ -10,6 +10,6 @@ library(readxl)
 
 test_data <- read_excel('read_in.xlsx')
 max <- test_data %>% filter(object=='max') %>% pull(value)
-expect_lte(max, 10)
+expect_lte(max, 9)
 min <- test_data %>% filter(object=='min') %>% pull(value)
 expect_gte(min, 0)
