@@ -1,10 +1,10 @@
 sudo: false
 language: r
-cache: packages
-# build in two different OS
-r:
-    - release
-os:
-    - osx
+cache:
+  directories: $TRAVIS_BUILD_DIR/packrat/
+  packages: true
+install:
+  - R -e "0" --args --bootstrap-packrat
+warnings_are_errors: false
 script:
     - Rscript test.R
